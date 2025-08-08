@@ -18,10 +18,10 @@ It features **interactive charts**, detailed **financial metrics** like Market C
 ## 🖼 Screenshots
 
 ### **Light Mode**
-![Light Mode Screenshot](screenshots/light-mode.png)
+![Light Mode Screenshot](screenshot/light-mode.png)
 
 ### **Dark Mode**
-![Dark Mode Screenshot](screenshots/dark-mode.png)
+![Dark Mode Screenshot](screenshot/dark-mode.png)
 
 ---
 
