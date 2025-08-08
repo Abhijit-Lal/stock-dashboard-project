@@ -1,48 +1,47 @@
-# Stock-Dashboard-Project
-
 # 📊 Stock Dashboard Web Application
 
-A **full-stack stock market dashboard** that displays real-time and historical stock data for 15 major Indian companies.  
-It includes **interactive charts**, **company-specific details** like Market Cap, PE Ratio, EPS, Beta, Sector, and more, with support for **Light/Dark mode**.
+A **full-stack stock market dashboard** that displays **real-time and historical stock data** for 30+ major Indian companies.  
+It features **interactive charts**, detailed **financial metrics** like Market Cap, PE Ratio, EPS, Beta, Sector, and more, with **Light/Dark mode** support.
 
 ---
 
 ## 🚀 Features
-- 📈 **Interactive Price Charts** (1-Year historical data with gradient styling)
-- 💹 **Key Financial Metrics** (Market Cap, PE Ratio, Dividend Yield, ROE, EPS, etc.)
-- 🌗 **Light/Dark Mode Toggle**
-- 📋 **List of 30 Indian Companies** (Easy sidebar navigation)
-- 🎨 **Modern, responsive, and elegant UI**
-- ⚡ **Fast backend API** using Flask and `yfinance`
+- 📈 **Interactive Price Charts** – 1-Year historical data with smooth gradient styling.
+- 💹 **Key Financial Metrics** – Market Cap, PE Ratio, Dividend Yield, ROE, EPS, Beta, etc.
+- 🌗 **Light/Dark Mode Toggle** – Switch seamlessly between themes.
+- 📋 **Sidebar with 30+ Indian Companies** – Quick navigation for switching stocks.
+- 🎨 **Modern, Responsive, and Elegant UI** – Works across devices.
+- ⚡ **Fast Backend API** – Built with Flask and `yfinance`.
 
 ---
 
 ## 🖼 Screenshots
 
 ### **Light Mode**
-![Light Mode Screenshot](a2a79774-98de-4f8b-9644-f2c96a12c4f3.png)
+![Light Mode Screenshot](screenshots/light-mode.png)
 
 ### **Dark Mode**
-![Dark Mode Screenshot](8163f3d0-d3b7-4105-87a2-b4e8f1c6d510.png)
+![Dark Mode Screenshot](screenshots/dark-mode.png)
 
 ---
 
 ## 🛠 Technologies Used
 
 ### **Frontend**
-- React.js
-- Recharts (for chart visualization)
-- Axios (for API calls)
-- CSS (Custom styling)
+- **React.js** – Component-based UI.
+- **Recharts** – For chart visualizations.
+- **Axios** – API requests.
+- **CSS3** – Custom styling with gradient charts and responsive layout.
 
 ### **Backend**
-- Python (Flask)
-- `yfinance` (Stock market data)
-- Pandas & NumPy (Data handling)
+- **Python (Flask)** – REST API.
+- **yfinance** – Live market data fetching.
+- **Pandas & NumPy** – Data processing and transformation.
 
 ---
 
 ## 📂 Project Structure
+
 stock-dashboard-project/
 │── backend/
 │ ├── server.py
@@ -56,17 +55,21 @@ stock-dashboard-project/
 │ │ └── index.js
 │ └── package.json
 │
+│── screenshots/
+│ ├── light-mode.png
+│ ├── dark-mode.png
+│
 │── README.md
 
-## 📊 Sample Dataset
-The backend fetches live market data from **Yahoo Finance** using the `yfinance` API, so no static dataset is required.  
-However, a small JSON response example is:
+## 📊 Sample API Response
+The backend fetches live data from **Yahoo Finance**.  
+Example response:
 ```json
 {
   "dates": ["2024-08-10", "2024-08-11", "..."],
   "prices": [1450.25, 1462.10, "..."],
   "details": {
-    "Market Cap": "18509755056128",
+    "Market Cap": "18,509,755,056,128",
     "PE Ratio": "22.73",
     "Dividend Yield": "0.4",
     "EPS": "60.16",
@@ -77,6 +80,7 @@ However, a small JSON response example is:
 }
 
 🛠 Installation & Setup
+
 Backend
 
 cd backend
@@ -89,31 +93,38 @@ cd frontend
 npm install
 npm start
 
-The app will run at:
+Access the app at:
 
-Frontend: http://localhost:3000
-Backend:  http://localhost:5000
+Frontend → http://localhost:3000
+Backend → http://localhost:5000
 
 📜 Development Approach
+The project follows a modular full-stack architecture:
 
-The Stock Dashboard was built using a modular full-stack architecture.
-The backend (Flask) handles data fetching from Yahoo Finance using the yfinance API, processes it with Pandas, and serves it through REST APIs.
-The frontend (React) consumes these APIs using Axios, displaying interactive charts with Recharts and detailed company statistics in an elegant UI.
-Light/Dark mode was added for accessibility and personalization.
+Backend (Flask) – Fetches and processes stock data using yfinance, then serves it through REST APIs.
+
+Frontend (React) – Consumes the API via Axios, renders charts with Recharts, and displays financial details in a clean, responsive UI.
+
+Added Light/Dark mode for accessibility and customization.
 
 ⚠ Challenges Faced
-Yahoo Finance API limitations sometimes caused delays in fetching data.
-Handling missing or unavailable fields for certain companies.
-Achieving a smooth and visually appealing chart design that works well in both light and dark modes.
-Managing state efficiently in React to ensure fast updates without reloading the page.
+Yahoo Finance API delays and missing fields for some companies.
+
+Formatting financial metrics for readability.
+
+Designing a chart that is visually appealing in both dark and light modes.
+
+Efficiently managing React state to ensure smooth UI updates.
 
 📎 Deliverables
-✅ Complete source code (Frontend + Backend)
-✅ Live API data fetching
+✅ Complete Source Code (Frontend + Backend)
+✅ Live API Data Fetching
 ✅ Screenshots (Light & Dark Mode)
-✅ Short project note with technologies, challenges, and setup instructions
+✅ README with setup instructions, technologies, and challenges
 
 📌 Future Enhancements
-Add search functionality for any NSE-listed company.
-Include Candlestick chart view.
-Display news and sentiment analysis for selected companies.
+🔍 Search functionality for any NSE-listed company.
+
+📊 Candlestick chart toggle option.
+
+📰 News feed and sentiment analysis for selected companies.
