@@ -2,7 +2,7 @@
 
 # 📊 Stock Dashboard Web Application
 
-A **full-stack stock market dashboard** that displays real-time and historical stock data for 30 major Indian companies.  
+A **full-stack stock market dashboard** that displays real-time and historical stock data for 15 major Indian companies.  
 It includes **interactive charts**, **company-specific details** like Market Cap, PE Ratio, EPS, Beta, Sector, and more, with support for **Light/Dark mode**.
 
 ---
