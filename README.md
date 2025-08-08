@@ -99,24 +99,24 @@ npm start
 
 **Access the app at:**
 
--Frontend → http://localhost:3000  
--Backend → http://localhost:5000  
+- Frontend → http://localhost:3000  
+- Backend → http://localhost:5000  
 
 ---
 ## **📜 Development Approach**
 
--The project follows a modular full-stack architecture:  
--Backend (Flask) – Fetches and processes stock data using yfinance, then serves it through REST APIs.  
--Frontend (React) – Consumes the API via Axios, renders charts with Recharts, and displays financial details in a clean, responsive UI.  
--Added Light/Dark mode for accessibility and customization.
+- The project follows a modular full-stack architecture:  
+- Backend (Flask) – Fetches and processes stock data using yfinance, then serves it through REST APIs.  
+- Frontend (React) – Consumes the API via Axios, renders charts with Recharts, and displays financial details in a clean, responsive UI.  
+- Added Light/Dark mode for accessibility and customization.
 
 ---
 ## **⚠ Challenges Faced**
 
--Yahoo Finance API delays and missing fields for some companies.  
--Formatting financial metrics for readability.  
--Designing a chart that is visually appealing in both dark and light modes.  
--Efficiently managing React state to ensure smooth UI updates.  
+- Yahoo Finance API delays and missing fields for some companies.  
+- Formatting financial metrics for readability.  
+- Designing a chart that is visually appealing in both dark and light modes.  
+- Efficiently managing React state to ensure smooth UI updates.  
 
 ---
 ## **📎 Deliverables**
