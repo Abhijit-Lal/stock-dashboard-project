@@ -64,7 +64,7 @@ stock-dashboard-project/
 ## 📊 Sample API Response
 The backend fetches live data from **Yahoo Finance**.  
 Example response:
-```json
+`json
 {
   "dates": ["2024-08-10", "2024-08-11", "..."],
   "prices": [1450.25, 1462.10, "..."],
