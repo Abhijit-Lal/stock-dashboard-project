@@ -42,41 +42,24 @@ It features **interactive charts**, detailed **financial metrics** like Market C
 
 ## 📂 Project Structure
 
-stock-dashboard-project/
-
-│── backend/
-
-│ ├── server.py
-
-│ ├── fetch_stock.py
-
-│ └── requirements.txt
-
-│
-
-│── frontend/
-
-│ ├── src/
-
-│ │ ├── App.js
-
-│ │ ├── App.css
-
-│ │ └── index.js
-
-│ └── package.json
-
-│
-
-│── screenshots/
-
-│ ├── light-mode.png
-
-│ ├── dark-mode.png
-
-│
-
-│── README.md
+stock-dashboard-project/  
+│── backend/  
+│ ├── server.py  
+│ ├── fetch_stock.py  
+│ └── requirements.txt  
+│  
+│── frontend/  
+│ ├── src/  
+│ │ ├── App.js  
+│ │ ├── App.css  
+│ │ └── index.js  
+│ └── package.json  
+│  
+│── screenshots/  
+│ ├── light-mode.png  
+│ ├── dark-mode.png  
+│  
+│── README.md  
 
 ## 📊 Sample API Response
 
