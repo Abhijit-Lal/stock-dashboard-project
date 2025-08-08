@@ -43,25 +43,43 @@ It features **interactive charts**, detailed **financial metrics** like Market C
 ## 📂 Project Structure
 
 stock-dashboard-project/
+
 │── backend/
+
 │ ├── server.py
+
 │ ├── fetch_stock.py
+
 │ └── requirements.txt
+
 │
+
 │── frontend/
+
 │ ├── src/
+
 │ │ ├── App.js
+
 │ │ ├── App.css
+
 │ │ └── index.js
+
 │ └── package.json
+
 │
+
 │── screenshots/
+
 │ ├── light-mode.png
+
 │ ├── dark-mode.png
+
 │
+
 │── README.md
 
 ## 📊 Sample API Response
+
 The backend fetches live data from **Yahoo Finance**.  
 Example response:
 `json
@@ -118,8 +136,11 @@ Efficiently managing React state to ensure smooth UI updates.
 
 📎 Deliverables
 ✅ Complete Source Code (Frontend + Backend)
+
 ✅ Live API Data Fetching
+
 ✅ Screenshots (Light & Dark Mode)
+
 ✅ README with setup instructions, technologies, and challenges
 
 📌 Future Enhancements
